@@ -3,6 +3,11 @@
 #include <algorithm>
 
 using namespace std;
+
+bool cmp(string a, string b){
+    
+}
+
 int main(){
     int n, m;
     string word;
@@ -16,6 +21,6 @@ int main(){
         // 입력받은 단어가 단어장에 없는 경우
         if (mp.find(word) == mp.end()){
             mp[word] = 0;
-        }else mp[word]++;
+        }else mp[word]++; // 이미 존재하면 횟수 +1
     }
 }
