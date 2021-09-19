@@ -22,7 +22,7 @@ bool isJava(string s){
     // 1. 첫문자 소문자
     if (!islower(s[0])) return false;
     // 2. '_' 있다면 false
-    if (s.find('_')==string::npos) return false;
+    if (s.find('_')!=string::npos) return false;
     return true;
 }
 
