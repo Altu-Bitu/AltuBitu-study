@@ -6,6 +6,7 @@ using namespace std;
 int main(){
     int n, m;
     cin >> n >> m;
+
     while (n--){
         int p,l;
         cin >> p >> l;
@@ -21,6 +22,9 @@ int main(){
         if (p<l){
 
         }
+        // 내림차순으로 마일리지 정렬
+        sort(y.begin(), y.end());
+
     }
 
     return 0;
