@@ -22,9 +22,9 @@ int main(){
         if (p<l){
 
         }
-        // 내림차순으로 마일리지 정렬
-        sort(y.begin(), y.end());
-
+        // 오름차순으로 마일리지 정렬
+        sort(y.begin(), y.end(), greater<int>());
+        // 수강가능인원-1 번째 사람의 마일리지 만큼 투자
     }
 
     return 0;
