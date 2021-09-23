@@ -24,7 +24,7 @@ void isPrime(){
 
 string goldbach(int n){
 
-    for (int i=3; i<n/2; i+=2){ // 홀수 소수인 i에 대해 반복문 실행, n의 절반을 넘어가면 반복되므로 n/2 까지만!
+    for (int i=3; i<=n/2; i+=2){ // 홀수 소수인 i에 대해 반복문 실행, n의 절반을 넘어가면 반복되므로 n/2 까지만!
         if (prime[i] && prime[n-i]) // i가 소수일때 n-i도 소수가 되면 출력
             return to_string(n) + " = "+ to_string(i) + " + " + to_string(n-i);
     }
