@@ -9,7 +9,7 @@ bool board[2][101][101];
 queue<pair<int, char>> moves;
 queue<pair<int, char>> tail; 
 
-//방향 오른쪽, 아래, 왼쪽, 위쪽
+//방향 
 int dr[4] = {0, 1, 0, -1};
 int dc[4] = {1, 0, -1, 0};
 int cur_dir = 0; 
